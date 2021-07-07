@@ -11,8 +11,7 @@ The easiest way to wake the ESP32 up from sleep is to use an RTC to wake it up a
 
 ![image](https://user-images.githubusercontent.com/61982410/124750508-2b77b380-df43-11eb-8457-4f39f62022bc.png)
 ### 02_Wake_ESP32_Using_Touchpin
-When someone touches the touchpin, so you can turn on the display and show something useful.
-Now to allow the touch sensor to wake the ESP32 up, we have to do three things:
+When someone touches the touchpin, you can wake the ESP32 up by doing the following:-
 1. Configure a threshold value (once this value is crossed, the ESP32 will wakeup)
 2. Enable the touch interrupt (so the ESP32 knows that it has to keep that powered on)
 3. Actually go into deep sleep.
