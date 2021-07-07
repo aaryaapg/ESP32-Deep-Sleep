@@ -8,5 +8,6 @@ Three things to mention about deep sleep.
 ## Codes
 ### 01_Wake_ESP32_Using_RTC
 The easiest way to wake the ESP32 up from sleep is to use an RTC to wake it up after a certain amount of time. This sketch puts ESP32 into deep sleep until the RTC triggers it after every 1 minute.
-![image](https://user-images.githubusercontent.com/61982410/124724846-fb6fe680-df29-11eb-8085-68c9da3eeb23.png)
+![image](https://user-images.githubusercontent.com/61982410/124750508-2b77b380-df43-11eb-8457-4f39f62022bc.png)
+
 
