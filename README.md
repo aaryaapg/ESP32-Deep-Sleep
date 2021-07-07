@@ -22,4 +22,5 @@ Now to allow the touch sensor to wake the ESP32 up, we have to do three things:
 ## References
 1. https://lastminuteengineers.com/esp32-deep-sleep-wakeup-sources/ (Reason for wakeup method is wrong)
 2. https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/
+3. https://savjee.be/videos/programming-esp32-with-arduino/esp32-power-modes-deep-sleep-explained/
 
