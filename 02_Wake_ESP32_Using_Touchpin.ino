@@ -2,11 +2,14 @@
 #define TOUCH_THRESHOLD 40 //Greater the value, more the sensitivity. ESP will wake up for values below threshold
 /* ______________________________________Variables______________________________________ */
 int wakePin;
+RTC_DATA_ATTR int counter = 0;
 /* ______________________________________Setup______________________________________ */
 void setup(){
   Serial.begin(115200);
   Serial.println("ESP32 has started");
   print_wakeup_reason();
+  Serial.print("Wakeup Count = "); Serial.println(counter);
+  counter++;
   touchAttachInterrupt(T0, callback, TOUCH_THRESHOLD); // Setup interrupt on Touch Pad 0 (GPIO4)
   esp_sleep_enable_touchpad_wakeup(); //Configure Touchpad as wakeup source. This is done so that esp does not shut down the touch pins when it goes into deep sleep
   Serial.println("You have touched the touch pin. Now going to deep sleep");
