@@ -16,7 +16,10 @@ When someone touches the touchpin, you can wake the ESP32 up by doing the follow
 2. Enable the touch interrupt (so the ESP32 knows that it has to keep that powered on)
 3. Actually go into deep sleep.
 
-![image](https://user-images.githubusercontent.com/61982410/124773703-ce87f780-df5a-11eb-9a1b-11a8837ce295.png)
+When the ESP32 awakes from the deep sleep, it will rerun your setup function and all data from the memory is lost. Hence, I have also used RTC memory to store the counter values.
+
+![image](https://user-images.githubusercontent.com/61982410/125252606-300ee400-e316-11eb-830c-c7675645fab9.png)
+
 
 ## References
 1. https://lastminuteengineers.com/esp32-deep-sleep-wakeup-sources/ (Reason for wakeup method is wrong)
