@@ -19,6 +19,14 @@ When someone touches the touchpin, you can wake the ESP32 up by doing the follow
 When the ESP32 awakes from the deep sleep, it will rerun your setup function and all data from the memory is lost. Hence, I have also used RTC memory to store the counter values.
 
 ![image](https://user-images.githubusercontent.com/61982410/125252606-300ee400-e316-11eb-830c-c7675645fab9.png)
+### 03_Wake_ESP32_Using_EXT0_Pushbutton
+The ext0 wake up source option uses RTC GPIOs to wake up. So, RTC peripherals will be kept on during deep sleep if this wake up source is requested.
+
+`esp_sleep_enable_ext0_wakeup(GPIO_NUM_X, level)`
+* This function accepts as first argument the pin you want to use. X is the GPIO number. With this wake up source, you can only use pins that are RTC GPIOs.
+* The second argument, level, can be either 1 or 0. This represents the state of the GPIO that will trigger wake up.
+
+![image](https://user-images.githubusercontent.com/61982410/125676331-cfc277c4-ef18-4b90-b5bf-7edf66c4f030.png)
 
 
 ## References
