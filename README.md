@@ -34,3 +34,10 @@ The ext0 wake up source option uses RTC GPIOs to wake up. So, RTC peripherals wi
 2. https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/
 3. https://savjee.be/videos/programming-esp32-with-arduino/esp32-power-modes-deep-sleep-explained/
 
+# Arduino-Deep-Sleep
+
+## References
+1. https://thekurks.net/blog/2018/1/24/guide-to-arduino-sleep-mode
+2. https://www.electroniclinic.com/arduino-sleep-modes-automatic-and-manual-to-save-power-arduino-deep-sleep/
+3. https://forum.arduino.cc/t/arduino-atmega328pu-wake-up-with-a-long-button-press/400968
+4. 
