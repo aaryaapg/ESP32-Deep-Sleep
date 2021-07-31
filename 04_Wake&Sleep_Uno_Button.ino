@@ -3,6 +3,7 @@
 */
 
 /* ______________________________________Libraries______________________________________ */
+#include <Arduino.h>
 //Deep Sleep
 #include <avr/sleep.h>//this AVR library contains the methods that controls the sleep modes
 /* _______________________________________Macros________________________________________ */
