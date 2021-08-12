@@ -35,9 +35,14 @@ The ext0 wake up source option uses RTC GPIOs to wake up. So, RTC peripherals wi
 3. https://savjee.be/videos/programming-esp32-with-arduino/esp32-power-modes-deep-sleep-explained/
 
 # Arduino-Deep-Sleep
-### 05_Wake
+### 05_Wake&Sleep_Arduino_Using_1_Button_Only
 This schematic helps us to control deep sleep in Arduino Uno using just one push button.
+
+**Schematic**
 ![Schematic_Push Button Decoder_2021-08-12](https://user-images.githubusercontent.com/61982410/129197617-7c75536d-8e94-4d7a-820c-4f22325f51a7.png)
+
+**Truth Table**
+![image](https://user-images.githubusercontent.com/61982410/129198128-6f622a83-ad50-4955-8530-7cca6f286bd5.png)
 
 ## References
 1. https://thekurks.net/blog/2018/1/24/guide-to-arduino-sleep-mode
