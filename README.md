@@ -51,3 +51,4 @@ This schematic helps us to control deep sleep in Arduino Uno using just one push
 2. https://github.com/RalphBacon/Arduino-Deep-Sleep
 3. https://www.electroniclinic.com/arduino-sleep-modes-automatic-and-manual-to-save-power-arduino-deep-sleep/
 4. https://forum.arduino.cc/t/arduino-atmega328pu-wake-up-with-a-long-button-press/400968
+5. https://www.theengineeringprojects.com/2015/11/reset-arduino-programmatically.html : Reset after wake up
